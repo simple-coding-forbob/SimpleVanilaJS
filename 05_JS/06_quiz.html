@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/06_quiz.css">
+</head>
+
+<body>
+  <div id="page">
+    <div">
+      <h2>Product Overview</h2>
+      <ul class="quiz-list clear">
+        <li data-filter="*"><a href="#">All</a></li>
+        <li data-filter=".bag"><a href="#">Bag</a></li>
+        <li data-filter=".wallet"><a href="#">Wallet</a></li>
+      </ul>
+
+      <div class="quiz-box clear">
+        <div class="quiz bag">
+          <img src="https://placehold.co/600x400" alt="빈이미지">
+          <p>OO Bag $160</p>
+        </div>
+        <div class="quiz wallet">
+          <img src="https://placehold.co/600x400" alt="빈이미지">
+          <p>OO Wallet $260</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery CDN js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- TODO : isotope cdn(인터넷주소): https://isotope.metafizzy.co/ -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="./js/06_isotope.js"></script>
+</body>
+
+</html>
