@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- TODO : AOS css: https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/00_style.css">
+    <link rel="stylesheet" href="./css/00_quiz_common.css">
+    <link rel="stylesheet" href="./css/06_quiz.css">
+    <!-- 파비콘 : 웹브라우저 탭 글자앞에 이미지 -->
+    <link rel="icon" type="image/png" href="./img/simple-coding.png" />
+</head>
+
+<body>
+    <div id="page">
+        <!-- TODO : fab 추가 -->
+        <div id="fab">🔝</div>
+        <!-- 메뉴 -->
+        <nav>
+            <h1 class="brand"><a href="#">simple-coding</a></h1>
+            <div class="fab">
+                <a href="#none"><img src="./img/1_icon_1.png" alt="햄버거메뉴"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Course2</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- TODO : 배너 이미지, swiper -->
+        <div class="swiper mySwiper clear">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="main-banner">
+                        <h5 id="typing"></h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main-banner2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 본문 -->
+        <div class="container clear">
+            <!-- TODO : content-area , 왼쪽으로 이동 -->
+            <div class="content-area clear" data-aos="fade-left">
+                <div class="content-box">
+                    <img src="./img/women_shoes_640_427.jpg" alt="구두">
+                </div>
+                <div class="content-box">
+                    <img src="./img/adidas_shoes_640_427.jpg" alt="아디다스">
+                </div>
+            </div>
+            <!-- TODO : product-area , 오른쪽으로 이동 -->
+            <div class="product-area clear" data-aos="fade-right">
+                <h2>상품 소개</h2>
+                <ul class="product-list clear">
+                    <li data-filter="*"><a href="#none">모든 제품</a></li>
+                    <li data-filter=".shoes"><a href="#none">구두</a></li>
+                    <li data-filter=".sneakers"><a href="#none">운동화</a></li>
+                </ul>
+                <div class="product-box clear">
+                    <div class="product sneakers">
+                        <img src="./img/canvers_640_428.jpg" alt="컨버스">
+                        <p class="title">OO 컨버스 50,000원</p>
+                    </div>
+                    <div class="product shoes">
+                        <img src="./img/oxford_shoes_640_428.jpg" alt="구두">
+                        <p>OO 옥스포드 구두 260,000원</p>
+                    </div>
+                    <div class="product sneakers">
+                        <img src="./img/ivory_convers_640_428.jpg" alt="컨버스">
+                        <p>OO 아이보리 컨버스 120,000원</p>
+                    </div>
+                    <div class="product sneakers">
+                        <img src="./img/white_adidas_640_427.jpg" alt="아디다스">
+                        <p>OO 흰색 아디다스 80,000원</p>
+                    </div>
+                    <div class="product sneakers">
+                        <img src="./img/white_nike_640_427.jpg" alt="나이키">
+                        <p>OO 나이키 110,000원</p>
+                    </div>
+                    <div class="product shoes">
+                        <img src="./img/brown_shoes_640_427.jpg" alt="구두">
+                        <p>OO 갈색 구두 550,000원</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 꼬리말 -->
+        <footer>
+            <div id="customer">
+                <p>Tel: 010-0000-0000</p>
+            </div>
+            <div id="address">
+                <div id="address-detail">
+                    <h5>About | Course | Contact | Guest Book</h5>
+                    <p>부산시 동래구 충렬대로</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery CDN js -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <!-- typed js: https://mattboldt.com/demos/typed-js/ -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <!-- Swiper JS: 공식사이트) https://swiperjs.com/demos -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- TODO : AOS js: https://michalsnik.github.io/aos/ -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- TODO : isotope cdn(인터넷주소): https://isotope.metafizzy.co/ -->
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+        <script src="./js/06_quiz.js"></script>
+    </div>
+</body>
+
+</html>

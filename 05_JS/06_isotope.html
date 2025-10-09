@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- TODO : isotope 공홈 : https://isotope.metafizzy.co/ -->
+  <link rel="stylesheet" href="./css/06_isotope.css">
+</head>
+
+<body>
+  <div id="page">
+    <!-- product-area -->
+    <div>
+      <h2>Product Overview</h2>
+      <ul class="product-list clear">
+        <li data-filter="*"><a href="#">All</a></li>
+        <li data-filter=".women"><a href="#">Women</a></li>
+        <li data-filter=".men"><a href="#">Men</a></li>
+      </ul>
+
+      <div class="product-box clear">
+        <div class="product women">
+          <img src="https://placehold.co/600x400" alt="빈이미지">
+          <p>OO Women's Shirt $16</p>
+        </div>
+        <div class="product men">
+          <img src="https://placehold.co/600x400" alt="빈이미지">
+          <p>OO Men's Pants $26</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery CDN js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- TODO : isotope cdn(인터넷주소): https://isotope.metafizzy.co/ -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="./js/06_isotope.js"></script>
+</body>
+
+</html>
