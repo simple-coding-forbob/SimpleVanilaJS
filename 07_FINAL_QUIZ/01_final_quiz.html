@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      .dog-cat {
+        width: 99vw;
+        height: 60vh;
+        background-image: url("../img/08_final_quiz_dog_cat.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .tree {
+        width: 99vw;
+        height: 60vh;
+        background-image: url("../img/08_final_quiz_tree.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- TODO : dog-cat, tree 회전시킵니다. -->
+    <!-- TODO : Swiper.js 사용합니다. -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- TODO: 1번 배경이미지 사용하기 -->
+           <!-- TODO: 이미지명 : 08_final_quiz_dog_cat.jpg -->
+          <div class="dog-cat"></div>
+        </div>
+        <div class="swiper-slide">
+          <!-- TODO: 2번 배경이미지 사용하기 -->
+           <!-- TODO: 이미지명 : 08_final_quiz_tree.jpg -->
+          <div class="tree"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/01_final_quiz.js"></script>
+  </body>
+</html>
