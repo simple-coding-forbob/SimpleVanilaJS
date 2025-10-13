@@ -1,3 +1,0 @@
-$(function () {
-    $('.quiz a').simpleLightbox();
-})
