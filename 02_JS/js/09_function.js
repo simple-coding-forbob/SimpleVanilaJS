@@ -21,4 +21,3 @@ function hello() {
 }
 // TODO: 2) 함수 실행
 hello();
-
