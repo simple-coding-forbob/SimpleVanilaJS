@@ -7,7 +7,7 @@ function getData() {
 
 function show() {
   getData();
-  console.log("부산 택배"); // 위 함수를 기둘리지 않고 바로 실행(비동기)
+  console.log("부산 택배");
 }
 
 show();  // 함수 실행
