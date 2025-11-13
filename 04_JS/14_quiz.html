@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <h1 id="userid">아이디</h1>
+   <button id="quiz">퀴즈</button>
+    
+   <!-- jquery 넣기 -->
+   <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+   <!-- TODO: quiz -->
+   <script>
+      // TODO: btn 을 click 하면 userid 글자를 가져와서 alert 으로 보여주세요
+      $(function () {
+         $("#quiz").click(function () {
+            let userid = $("#userid").text(); 
+            alert(userid);  
+         });
+      });
+   </script>
+</body>
+
+</html>

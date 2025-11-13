@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <img src="../img/9_5_2_smart_phone_1.jpg" id="phone" alt="스마트폰" />
+    
+   <!-- jquery 넣기 -->
+   <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+   <!-- TODO: 예제 -->
+   <script>
+      $(function(){
+         $("#phone").hover(function () {
+            // TODO : 마우스 위
+            $("#phone").attr("src", "../img/9_5_2_smart_phone_2.jpg");
+         }, function () {
+            // TODO : 마우스 밖
+            $("#phone").attr("src", "../img/9_5_2_smart_phone_1.jpg");
+         })
+      });
+   </script>
+</body>
+
+</html>
