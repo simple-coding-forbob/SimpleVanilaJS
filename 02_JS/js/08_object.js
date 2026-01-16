@@ -3,7 +3,7 @@ let dog = {
     name: "삼식이",
     age: 2
 };
-console.log(dog.name);
+console.log(dog);
 
 // TODO: 2) 객체 만들기 2
 let dog2 = new Object();
