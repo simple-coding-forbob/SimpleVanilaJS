@@ -8,12 +8,12 @@
 // import : 다른 js 파일에서 변수/함수를 가져오기 기능
 // export : 다른 js 파일에서 사용할 수 있도록 일부 기능을 내보내기
 // 단, export 된 변수/함수만 import 할 수 있음
-const oddConsole = () => console.log("홀수");
-const evenConsole = () => console.log("짝수");
+const odd = "홀수";
+const even = "짝수";
 
 let NumberService = {
-    oddConsole,
-    evenConsole
+    odd,
+    even
 }
 
 // 위의 상수 2개/함수 1개 내보내기(export)

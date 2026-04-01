@@ -1,13 +1,13 @@
 {
-  "name": "05_import_module",
+  "name": "08_import_module",
   "version": "1.0.0",
-  "description": "",
-  "main": "var_es6.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "type": "module"
 }

@@ -10,7 +10,10 @@
 
 // 예제 3) 배열 2개 붙이기
 let arr1 = [1,2,3];
-let arr2 = [4,5,6];
+console.log(arr1); // [1,2,3]
+console.log(...arr1); // 1,2,3
 
-let arr = [...arr1, ...arr2];
-console.log(arr); // [1,2,3,4,5,6]
+let a = [arr1];
+console.log(a);    // [[1,2,3]] : 2차원 배열
+let b= [...arr1]   
+console.log(b);    // [1,2,3]   : 1차원 배열

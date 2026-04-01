@@ -6,13 +6,14 @@
 // 코딩 : null 에러를 회피해서 코딩을 전통적으로 했음
 // 아래 예)
 // let num = null;
-// // 미리 변수의 값에 null 이 있는지 체크했음
+// // 미리 변수의 값에 null 이 있는지 체크해서 있으면 undefined 로 표시: 에러는 아님
 // if( num == null) {
-//     console.log("num 변수에 null 이 있습니다.");
+//     console.log(undefined);
 // }
 
-let user = null; // 객체 , address 속성이 있는지 없는지 체크
+let user={address:"부산"}
+user = null; // 객체 , address 속성이 있는지 없는지 체크
 // 객체의 속성 호출 : user.address => user = null;
 //                   null.address (에러 : 서비스 다운)
-console.log(`user 는 ${user?.address}`);
-
+// console.log(`user 는 ${user.address}`);  // 빨간색 에러 발생
+console.log(`user 는 ${user?.address}`);  // undefined 로 변경됨, 에러 발생은 안남

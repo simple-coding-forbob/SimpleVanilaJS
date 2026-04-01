@@ -4,5 +4,5 @@
 // 사용법 : import {변수명,함수명...} from "js파일경로/파일명";
 import NumberService from "./var_es6.js";
 
-NumberService.oddConsole();
-NumberService.evenConsole();
+console.log(NumberService.odd);
+console.log(NumberService.even);

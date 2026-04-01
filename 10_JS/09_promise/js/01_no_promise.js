@@ -1,4 +1,5 @@
 // 1초 뒤에 실행되는 함수: 서울 택배를 콘솔 탭에 표시
+// 이게 백엔드 기능이라고 가정하고 합니다.
 function getData() {
   setTimeout(() => {
     console.log("서울 택배");
